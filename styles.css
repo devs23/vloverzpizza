@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-pizza-restaurant-composition_23-2147837176.jpg?size=338&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(183, 17, 17);
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 13px 15px 0 60px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav li span{
+    padding-left: 5px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+li a{
+    padding: 5px;
+    background-color: wheat;
+    color: rgb(183, 17, 17);
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.slider{
+    max-width: 1400px;
+    margin-left: 2px;
+    margin-top: 0px;
+    margin-right: 2px;
+    border: indigo;
+    border-width: medium;
+}
+.mySlides{
+    width: 100%;
+    height:400px;
+}
+
+.new1{
+width: 430px;
+height:320px;
+margin-left: 5px;
+margin-top:10px;
+margin-right: 10px;
+border-radius: 10px;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIKf1r9D8c7zJM7LbQaBJQ6mA2_lL2JnsWSE4SRa4lW4MxO8s-&usqp=CAU');
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+float: left;
+
+}
+.new1 h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    color:#FFFFFF;
+    background-color: black;
+}
+
+.new2{
+    width: 430px;
+    height:320px;
+    margin-top:10px;
+    margin-right: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRrISF9KVSoqkmjlogQifbfPK5szBzWl-UW1ANLh_J8x9ypCNrz&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    }
+.new2 h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    color:black;
+    background-color: red;
+}
+.new3{
+    width: 430px;
+    height:320px;
+    margin-top:10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfunmaSNg3E_bmUcYUsalzAiVaDPWPFmWpN7DiPAI4o2TmxN8H&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    }
+.new3 h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    color:black;
+    background-color: white;
+}
+.menu{
+    background-color: rgb(255, 13, 13);
+    border-radius: 130px;
+    margin-top: 365px;
+    margin-left: 440px;
+    margin-right: 440px;
+}
+.menu h1{
+    font-family: cursive;
+    text-align: center;
+    padding: 37px;
+    color: black;
+    text-shadow: 2px 2px blue;
+}
+.menu h1:hover{
+    text-decoration: underline;
+    color: wheat;
+    text-shadow: 2px 2px black;
+}
+.menu h1:active{
+    text-decoration: underline;
+    color: blue;
+    text-shadow: 2px 2px yellow;
+}
+.downimage{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgfXOOQxPxjRH7Vvzu-8hudoHJduUlvx5ujAoM0shKNaQ1ILUu&usqp=CAU);
+    max-width: 1400px;
+    height: 300px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    width: 100%;
+    height:33px;
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+   
+}
+#footcontent{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    font-size: medium;
+    float: left;
+    background-color: wheat;
+    text-decoration: underline;
+}
+.new4{
+    width: 429px;
+    height:320px;
+    margin-top:27px;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfpoCdE6Q08Gb93686zx72eGgLK1lqozpSHEQL9-5914-3-yht&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.new5{
+    width: 427px;
+    height:320px;
+    margin-top:27px;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgfXOOQxPxjRH7Vvzu-8hudoHJduUlvx5ujAoM0shKNaQ1ILUu&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.new6{
+    width: 427px;
+    height:320px;
+    margin-top:27px;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGbs5i3egLvESEw4keEBMo0z9ICNsH_jh__v-h1O_ZMolyOVEa&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.image{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: red;
+    background-color: black;
+    border-radius: 28px;
+}
+.image img{
+    height: 250px;
+    width: 260px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.image a{
+    font-weight: 600;
+}
+.image a:hover{
+    color: white;
+}
+.products-container{
+    margin-top: 50px;
+    margin:0 auto;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+
+}
+.product-header {
+    width:100%;
+    display: flex;
+    color:rgb(141, 22, 22);
+    justify-content:flex-start;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-top: 30px;
+}
+.product{
+    width:45%;
+    color: rgb(165, 43, 43);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.product2 {
+    width: 45%;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+
+}
+.price {
+    width: 20%;
+    font-size: 1.2em;
+    color: rgb(165, 38, 38);
+    align-items: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.total {
+    width: 20%;
+    font-size: 1.2em;
+    color: rgb(173, 39, 39);
+    align-items: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.quantity {
+    width: 35%;  
+    align-items: center;
+    margin-right: 1.5em;
+    color: rgb(173, 39, 39);
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size:1.5em;
+}
+.product-title{
+    width:45%;
+    align-items: center;
+    margin-left:220px;
+    color: rgb(146, 33, 33);
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size:1.5em;
+}
+
+.products {
+    width: 100%;
+    padding: 20px;
+    color: rgb(180, 43, 43);
+    font-size: 1.2em;
+}
+.btn{
+    padding:6px 20px;
+    border:1px solid rgb(80, 26, 26);
+    background-color:green;
+    color:white;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    border-radius:10px;
+    cursor: pointer;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+.product-container ion-icon{
+    font-size: 25px;
+    color:black;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+    padding:10px 0;
+    margin-right: 55px;
+    color:black;
+}
+.basketTotalTitle{
+    width:28%;
+}
+.basketTotal{
+    width: 16%;
+}
+.payment{
+    background: #f8f8f8;
+    max-width: 360px;
+    margin: 80px auto;
+    height: auto;
+    padding: 35px;
+    padding-top: 70px;
+    border-radius: 5px;
+    position: relative;
+}
+.payment h2{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    color: #0d3c64;
+}
+.form label{
+    display: block;
+    color: #555555;
+    margin-bottom: 6px;
+}
+.form .input{
+    padding: 13px 0 13px 25px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    word-wrap: 3px;
+    outline: none;
+    font-size: 16px;
+    color: #555555;
+}
+.card-grp{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    width:48%;
+
+}
+.space{
+    margin-bottom: 20px;
+}
+.icon-relative{
+    position: relative;
+}
+.icon-relative .fas{
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    font-size: 18px;
+    color: #555555;
+}
+.btnn{
+    margin-left: 114px;
+    justify-content: center;
+    margin-top: 10px;
+    background: #1092fd;
+    padding: 8px;
+    text-align: center;
+    color: #f8f8f8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnn:hover{
+    text-decoration: underline;
+}
+.payment-logo{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background: #f8f8f8;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    text-align: center;
+    line-height: 85px;
+}
+.payment-logo::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 90px;
+    background: #0f8cf3;
+    border-radius: 50%;
+}
+.payment-logo p{
+    color: white;
+    position: relative;
+    font-family:  sans-serif;
+    font-size: 58px;
+}
+.bt:hover{
+    text-decoration: underline rgb(202, 15, 15);
+}
