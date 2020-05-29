@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <div class="hero"> <!----container k bahr wali-->
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+              <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+              <button type="button" class="toggle-btn"onclick="signup()">Sign Up</button>
+            </div>
+            <div class="social-icons">
+                <img src="https://www.freepngimg.com/download/logo/69840-and-icons-computer-facebook-logo-white-black.png">
+                <img src="https://thumbs.dreamstime.com/b/black-white-instagram-logo-vector-ai-file-easily-editable-have-white-background-high-resolution-instagram-logo-138329686.jpg">
+                <img src="https://clipartart.com/images/black-twitter-clipart-4.jpg" height="25px">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class-="input-field" placeholder="User Id"
+                required>
+                <input type="text" class-="input-field" placeholder="Enter Password"
+                required>
+                <br><br><input type="checkbox">Remember Password</span>
+                <br><br><button type="submit"class="submit-btn"><a href="index.html" style="text-decoration: none;font-weight: 600;">Log In</a></button>
+            </form>
+            <form id="signup" class="input-group">
+                <input type="text" class-="input-field" placeholder="User Id"required>
+                <br><input type="text" class-="input-field" placeholder="Email Id"required>
+                <br><input type="text" class-="input-field" placeholder="Enter Password"required>
+                <!-- <input type="checkbox" class="checkbox"><span>I agree to terms & conditions</span> -->
+                <br><br><button type="submit"class="submit-btn"><a href="index.html">Sign Up</a></button>
+            </form>
+         
+        </div>
+</div> 
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("signup");
+        var z=document.getElementById("btn");
+        function signup()
+        {
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="50px";
+        }
+        function login()
+        {
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+   
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loverzpizza/payment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://unpkg.com/ionicons@5.0.0/dist/css/ionicons.min.css" rel="stylesheet"></script>
+</head>
+<body style="box-sizing: border-box;font-family: 'Courier New', Courier, monospace;background: #0f85e5;margin: 0 10px;">
+    <div class="wrapper">
+        <form>
+        <div class="payment">
+            <div class="payment-logo">
+                <p>p</p>
+            </div>
+            <h2>Payment Gateway</h2>
+            <div class="form">
+                <div class="card space icon-relative">
+                    <label class="label">Card holder</label>
+                    <input type="text" class="input" name="card_holder" placeholder="XYZ"required>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="card space icon-relative">
+                    <label class="label">Card number</label>
+                    <input type="text" class="input" name="card_number" placeholder="Card Number"required>
+                    <i class="fas fa-credit-card"></i>
+                </div>
+                <div class="card-grp space">
+                    <div class="card-item icon-relative">
+                        <label class="label">Expiry date:</label>
+                        <input type="text" class="input" name="expiry_date" placeholder="00 / 00"required>
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="card-item icon-relative">
+                        <label class="label">CVC:</label>
+                        <input type="text" class="input" name="cvc" placeholder="000"required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+                <button class="btnn" type="submit"><a style="text-decoration: none;color: white;font-size: 20px;" href="thank.html">
+                    Pay
+                </a></button>
+            </div>
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html>
