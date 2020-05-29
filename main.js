@@ -100,7 +100,7 @@ function cartNumbers(product) {
      let cartItems=localStorage.getItem("productsInCart");
      cartItems=JSON.parse(cartItems);
      let productContainer=document.querySelector(".products");
-     let cartCost=localStorage.setItem('totalCost',3);
+     let cartCost=localStorage.getItem('totalCost');
      if (cartItems && productContainer){
         productContainer.innerHTML='';
         Object.values(cartItems).map(item =>{
