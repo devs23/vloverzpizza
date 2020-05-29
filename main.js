@@ -45,7 +45,7 @@ for (let i=0;i<carts.length;i++){
     })
 }
 function onloadCartNumbers(){
-    let productNumbers=localStorage.setItem('cartNumbers',0);
+    let productNumbers=localStorage.getItem('cartNumbers');
 
     if(productNumbers){
         document.querySelector('.cart span').textContent=productNumbers;
@@ -66,7 +66,7 @@ function cartNumbers(product) {
     setItems(product);
  }
  function setItems(product){
-     let cartItems=localStorage.setItem('productsInCart',0);
+     let cartItems=localStorage.getItem('productsInCart');
      cartItems=JSON.parse(cartItems);
      if(cartItems !=null){
          if(cartItems[product.tag]==undefined){
