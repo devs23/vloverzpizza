@@ -110,14 +110,14 @@ function cartNumbers(product) {
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmIPp04K_3aDX9C-ETXQ4BnJksJZvN0K0iwn0nu6eerQAX1nQZ&usqp=CAU" width="120" height="120">
                     <h5>${item.name}</h5>
                 </div>
-                <div class="price">$${item.price},00</div>   
+                <div class="price">$${item.price}.00</div>   
                 <div class="quantity">
                     <ion-icon class="decrease" name="arrow-dropleft-circle"></ion-icon>
                     <span>${item.inCart}</span>
                     <ion-icon class="decrease" name="arrow-dropright-circle"></ion-icon>
                 </div>
                 <div class="total">
-                    $${item.inCart*item.price},00
+                    $${item.inCart*item.price}.00
                 </div>
 
             `
