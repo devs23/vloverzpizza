@@ -128,7 +128,7 @@ function cartNumbers(product) {
                     Basket Total
                 </h2>
                 <h2 class="basketTotal">
-                    $${cartCost},00
+                    $${cartCost}.00
                 </h2>
         
         `;
